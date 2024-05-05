@@ -187,6 +187,17 @@ function App() {
                 <td className='email-date'>May 2</td>
               </tr>
 
+              <tr className='table-row'>
+                <td><CropSquareIcon></CropSquareIcon></td>
+                <td><StarBorderIcon></StarBorderIcon></td>
+                <td className='sender-name'>Google</td>
+                <td className='email-topic'>you're on a design hot streak...</td>
+                <td className='email-detail'>- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum deleniti.</td>
+                <td className='email-date'>December 14</td>
+              </tr>
+
+
+
             </tbody>
           </table>
       </div>
