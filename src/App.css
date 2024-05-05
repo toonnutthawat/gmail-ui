@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #F6F8FC;
 }
 
 .App-logo {
@@ -36,3 +39,287 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App-header img {
+  float: left;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  position: relative;
+  background-color: #F6F8FC;
+  z-index: 1;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+}
+.img{
+  margin-left: 50px;
+}
+.gmailLogo{
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.gmail {
+  margin-right: 200px; /* Add margin to create space between Gmail and SearchBar */
+}
+
+.searchBar {
+  margin-top: 10px; 
+  border: medium;
+  padding: 0;
+  margin: 0;
+  height:auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.textField{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 10px;
+  border: 0%;
+  background-color: #EAF1FB;
+  border-radius: 200px
+}
+
+.searchIcon{
+  padding-left: 10px;
+  position: absolute;
+  margin-top: 10px;
+}
+.inputField{
+  margin-left: 35px;
+  background-color: transparent;
+}
+
+.tuneIcon{
+  margin-top: 10px;
+  padding-right: 20px
+  
+}
+
+.activeStatus{
+  width: 10px; /* Set the width and height to the same value for a perfect circle */
+  height: 10px; /* Adjust as needed */
+  background-color: #1e8e3e; /* Change the background color as desired */
+  border-radius: 50%; /* Make the border-radius 50% to create a circle */
+  margin-left: 10px;
+  margin-right:5px
+}
+
+.activeBox{
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+  border-radius: 200px;
+  background-color: #EAF1FB;
+}
+
+
+.active{
+  margin-right:0px
+}
+
+.avatar{
+  position: absolute;
+  right: 0;
+  margin:50px;
+  width: 32px;
+}
+
+p{
+  font-weight: bold;
+  color: #4d4d4e;
+}
+
+.setting{
+  color: #4d4d4e;
+  margin-right: 10px;
+}
+
+.mainMenu{
+  margin-left: 5px;
+  color:#4d4d4e;
+}
+
+.supportButton{
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.appsIcon{
+  margin-right: 70px;
+  color: #4d4d4e;
+}
+.nav-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.side-nav{
+  position: relative;
+  border: 2px solid green;
+  width: 150px;
+  height: 386px;
+  top: 0;
+  left: 0;
+  background: #eaf1fb;
+
+}
+
+.sidebar{
+  height: 820px;
+  background-color: #EAF1FB;
+  padding:2px;
+  margin-bottom: 10px;
+}
+.nav-bar-menu{
+  margin: 15px 15px 30px;
+
+}
+
+.settingBar{
+  display: inline;
+}
+
+ul {
+  list-style: none; /* Remove the list-style (bullet points) */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.emailIcon{
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  color: #444;
+}
+
+.chatBubleOutlineIcon{
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  color: #444;
+}
+
+.meetIcon{
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.blEmailIcon{
+  font-size: .75rem;
+  margin-right: 5px;
+  color: #1f1f1f;
+  font-weight: 400;
+  text-align: center;
+}
+
+.blChatBubbleOutlineIcon{
+  font-size: .75rem;
+  margin-right: 5px;
+  color: #1f1f1f;
+  font-weight: 400;
+  text-align: center;
+}
+
+.blMeetIcon{
+  text-decoration: none;
+  font-size: .75rem;
+  margin-right: 5px;
+  color: #1f1f1f;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content{
+  margin-left: 100px;
+  background-color: #ffffff;
+}
+
+#main{
+  margin-bottom: 20px;
+  float:right;
+  width: 80%;
+  border-radius: 20px;
+  padding-right: 188px;
+  padding-bottom: 400px;
+}
+
+#nav-bar{
+  float: left;
+  width: 5%;
+}
+
+.mail-topic{
+  margin-left: 20px;
+  box-shadow: #282c34;
+}
+
+.mail-table-head{
+  margin-top: 10px;
+  margin-left: 10px;
+  color:#444;
+  display: flex;
+}
+
+.navigate-icon{
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+}
+
+.mail-table{
+  margin-top: 10px;
+  margin-left: 10px;
+  border-spacing: 0 10px; 
+}
+
+
+.sender-name{
+  font-weight: 700;
+  width: 400px;
+}
+
+.email-topic{
+  font-weight: 700;
+  white-space: nowrap;
+}
+.email-detail{
+  font-weight: lighter;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #5f6368;
+  white-space: nowrap;
+}
+
+.email-date{
+  margin-right: 35px;
+  position: absolute;
+  font-weight: 700;
+  white-space: nowrap;
+  right: 0;
+  
+  
+}
+
+.table-row{
+  align-items: center;
+  box-shadow: inset ;
+}
+
